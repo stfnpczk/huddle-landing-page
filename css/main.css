@@ -390,10 +390,10 @@ body {
           justify-content: center;
 }
 
-@media only screen and (min-width: 1250px) {
+@media only screen and (min-width: 1024px) {
   body {
     background-image: url(../images/bg-desktop.svg);
-    background-size: auto;
+    background-size: cover;
     margin: 53px 0 40px;
   }
 }
@@ -410,9 +410,15 @@ body {
   margin: 0 40px 0;
 }
 
-@media only screen and (min-width: 1250px) {
+@media only screen and (min-width: 1024px) {
   .page-wrapper {
-    margin: 0 80px 0 80px;
+    margin: 0px 30px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .page-wrapper {
+    margin: 0 80px;
   }
 }
 
@@ -424,7 +430,7 @@ body {
   height: auto;
 }
 
-@media only screen and (min-width: 1250px) {
+@media only screen and (min-width: 1024px) {
   .header__image {
     width: 216px;
   }
@@ -445,13 +451,13 @@ huddle main section
   margin: 70px 0 0;
 }
 
-@media only screen and (min-width: 1250px) {
+@media only screen and (min-width: 1024px) {
   .huddle {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    max-width: 1500px;
+    max-width: 1316px;
     gap: 59px;
     margin: 87px 0 0;
   }
@@ -466,23 +472,24 @@ huddle main section
           flex: 1 1 auto;
 }
 
-@media only screen and (min-width: 1250px) {
+@media only screen and (min-width: 1024px) {
   .huddle__hero-image {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 696px;
             flex: 1 1 696px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
 .huddle__image {
   width: 100%;
-  height: 100%;
 }
 
-@media only screen and (min-width: 1250px) {
+@media only screen and (min-width: 1024px) {
   .huddle__image {
-    width: 696px;
-    height: 493px;
+    max-width: 696px;
   }
 }
 
@@ -491,7 +498,7 @@ huddle main section
   color: white;
 }
 
-@media only screen and (min-width: 1250px) {
+@media only screen and (min-width: 1024px) {
   .huddle__content-container {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 520px;
@@ -508,7 +515,7 @@ huddle main section
   margin: 60px 0 16px;
 }
 
-@media only screen and (min-width: 1250px) {
+@media only screen and (min-width: 1024px) {
   .huddle__heading {
     font-size: 40px;
     line-height: 60px;
@@ -520,7 +527,7 @@ huddle main section
   line-height: 24px;
 }
 
-@media only screen and (min-width: 1250px) {
+@media only screen and (min-width: 1024px) {
   .huddle__paragraph {
     font-size: 18px;
     line-height: 27px;
@@ -543,7 +550,7 @@ huddle main section
   cursor: pointer;
 }
 
-@media only screen and (min-width: 1250px) {
+@media only screen and (min-width: 1024px) {
   .huddle__button {
     height: 56px;
     border-radius: 28px;
@@ -552,6 +559,12 @@ huddle main section
     -webkit-box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.26);
             box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.26);
   }
+}
+
+.huddle__button:hover {
+  color: white;
+  background-color: #e981e7;
+  background-color: #e882e8;
 }
 
 /*----------------------------
@@ -567,7 +580,7 @@ huddle main section
   gap: 10.5px;
 }
 
-@media only screen and (min-width: 1250px) {
+@media only screen and (min-width: 1024px) {
   .social-media {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
@@ -594,18 +607,24 @@ huddle main section
   border-radius: 50%;
 }
 
-@media only screen and (min-width: 1250px) {
+@media only screen and (min-width: 1024px) {
   .social-media__link {
     width: 40px;
     height: 40px;
   }
 }
 
+.social-media__link:hover {
+  outline: none;
+  border: 1px solid;
+  color: #ff52bf;
+}
+
 .social-media__icon {
   font-size: 12px;
 }
 
-@media only screen and (min-width: 1250px) {
+@media only screen and (min-width: 1024px) {
   .social-media__icon {
     font-size: 16px;
   }
