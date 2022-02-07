@@ -379,7 +379,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 40px 0 40px;
+  margin: 2.5rem 0;
   min-height: 100vh;
   background-image: url(../images/bg-mobile.svg);
   background-repeat: no-repeat;
@@ -394,7 +394,7 @@ body {
   body {
     background-image: url(../images/bg-desktop.svg);
     background-size: cover;
-    margin: 53px 0 40px;
+    margin: 3.3125rem 0 2.5rem;
   }
 }
 
@@ -407,18 +407,12 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   position: relative;
-  margin: 0 40px 0;
+  margin: 0 2.5rem 0;
 }
 
 @media only screen and (min-width: 1024px) {
   .page-wrapper {
-    margin: 0px 30px;
-  }
-}
-
-@media only screen and (min-width: 1440px) {
-  .page-wrapper {
-    margin: 0 80px;
+    margin: 0rem 1.875rem;
   }
 }
 
@@ -426,13 +420,13 @@ body {
        header section
 ----------------------------*/
 .header__image {
-  width: 120px;
+  width: 7.5rem;
   height: auto;
 }
 
 @media only screen and (min-width: 1024px) {
   .header__image {
-    width: 216px;
+    width: 13.5rem;
   }
 }
 
@@ -447,8 +441,8 @@ huddle main section
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  max-width: 600px;
-  margin: 70px 0 0;
+  max-width: 37.5rem;
+  margin: 4.375rem 0 0;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -457,9 +451,9 @@ huddle main section
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    max-width: 1316px;
-    gap: 59px;
-    margin: 87px 0 0;
+    max-width: 82.25rem;
+    gap: 3.6875rem;
+    margin: 5.4375rem 0 0;
   }
 }
 
@@ -475,8 +469,8 @@ huddle main section
 @media only screen and (min-width: 1024px) {
   .huddle__hero-image {
     -webkit-box-flex: 1;
-        -ms-flex: 1 1 696px;
-            flex: 1 1 696px;
+        -ms-flex: 1 1 43.5rem;
+            flex: 1 1 43.5rem;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -489,7 +483,7 @@ huddle main section
 
 @media only screen and (min-width: 1024px) {
   .huddle__image {
-    max-width: 696px;
+    max-width: 43.5rem;
   }
 }
 
@@ -501,8 +495,8 @@ huddle main section
 @media only screen and (min-width: 1024px) {
   .huddle__content-container {
     -webkit-box-flex: 1;
-        -ms-flex: 1 1 520px;
-            flex: 1 1 520px;
+        -ms-flex: 1 1 32.5rem;
+            flex: 1 1 32.5rem;
     text-align: left;
   }
 }
@@ -510,60 +504,59 @@ huddle main section
 .huddle__heading {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  font-size: 24px;
-  line-height: 36px;
-  margin: 60px 0 16px;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  margin: 3.75rem 0 1rem;
 }
 
 @media only screen and (min-width: 1024px) {
   .huddle__heading {
-    font-size: 40px;
-    line-height: 60px;
-    margin: 42px 0 20px;
+    font-size: 2.5rem;
+    line-height: 3.75rem;
+    margin: 2.625rem 0 1.25rem;
   }
 }
 
 .huddle__paragraph {
-  line-height: 24px;
+  line-height: 1.5rem;
 }
 
 @media only screen and (min-width: 1024px) {
   .huddle__paragraph {
-    font-size: 18px;
-    line-height: 27px;
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
   }
 }
 
 .huddle__button {
-  border-radius: 20px;
+  border-radius: 1.25rem;
   background: white;
-  width: 200px;
-  height: 40px;
-  margin: 25px 0 64px;
+  width: 12.5rem;
+  height: 2.5rem;
+  margin: 1.5625rem 0 4rem;
   border: none;
   font-family: "Poppins", sans-serif;
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
   color: #674baf;
-  -webkit-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.269022);
-          box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.269022);
+  -webkit-box-shadow: 0.0625rem 0.1875rem 0.3125rem rgba(0, 0, 0, 0.269022);
+          box-shadow: 0.0625rem 0.1875rem 0.3125rem rgba(0, 0, 0, 0.269022);
   cursor: pointer;
 }
 
 @media only screen and (min-width: 1024px) {
   .huddle__button {
-    height: 56px;
-    border-radius: 28px;
-    font-size: 18px;
-    line-height: 27px;
-    -webkit-box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.26);
-            box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.26);
+    height: 3.5rem;
+    border-radius: 1.75rem;
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
+    -webkit-box-shadow: 0.125rem 0.25rem 0.5625rem 0.1875rem rgba(0, 0, 0, 0.26);
+            box-shadow: 0.125rem 0.25rem 0.5625rem 0.1875rem rgba(0, 0, 0, 0.26);
   }
 }
 
 .huddle__button:hover {
   color: white;
-  background-color: #e981e7;
   background-color: #e882e8;
 }
 
@@ -577,7 +570,7 @@ huddle main section
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 10.5px;
+  gap: 0.6563rem;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -585,7 +578,7 @@ huddle main section
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    margin: 34px 0 0;
+    margin: 2.125rem 0 0;
   }
 }
 
@@ -596,8 +589,8 @@ huddle main section
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 28px;
-  height: 28px;
+  width: 1.75rem;
+  height: 1.75rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -609,23 +602,23 @@ huddle main section
 
 @media only screen and (min-width: 1024px) {
   .social-media__link {
-    width: 40px;
-    height: 40px;
+    width: 2.5rem;
+    height: 2.5rem;
   }
 }
 
 .social-media__link:hover {
   outline: none;
-  border: 1px solid;
+  border: 0.0625rem solid;
   color: #ff52bf;
 }
 
 .social-media__icon {
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 @media only screen and (min-width: 1024px) {
   .social-media__icon {
-    font-size: 16px;
+    font-size: 1rem;
   }
 }

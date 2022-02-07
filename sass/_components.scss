@@ -4,7 +4,7 @@
 body {
   display: flex;
   // align-items: center;
-  margin: 2.5rem 0 2.5rem;
+  margin: 2.5rem 0;
   min-height: 100vh;
   background-image: url(../images/bg-mobile.svg);
   background-repeat: no-repeat;
@@ -25,12 +25,8 @@ body {
   position: relative;
   margin: 0 2.5rem 0;
 
-  @media only screen and (min-width: $medium) {
+  @media only screen and (min-width: $desktop) {
     margin: 0rem 1.875rem;
-  }
-
-  @media only screen and (min-width: 1440px) {
-    margin: 0 5rem;
   }
 }
 
@@ -54,6 +50,7 @@ huddle main section
   display: flex;
   flex-direction: column;
   max-width: 37.5rem;
+  // max-width: 425px;
   margin: 4.375rem 0 0;
 
   @media only screen and (min-width: $desktop) {
@@ -62,11 +59,11 @@ huddle main section
     gap: 3.6875rem;
     margin: 5.4375rem 0 0;
   }
-  
+
   &__hero-image {
     display: flex;
     flex: 1 1 auto;
-    
+
     @media only screen and (min-width: $desktop) {
       flex: 1 1 43.5rem;
       align-items: center;
@@ -136,10 +133,10 @@ huddle main section
       box-shadow: 0.125rem 0.25rem 0.5625rem 0.1875rem rgba(0, 0, 0, 0.26);
     }
   }
-  
-  &__button:hover{
+
+  &__button:hover {
     color: $white;
-    background-color: $magenta ;
+    background-color: $magenta;
   }
 }
 
@@ -175,11 +172,10 @@ huddle main section
 
   &__link:hover {
     outline: none;
-    border: 0.0625rem solid; 
+    border: 0.0625rem solid;
     color: hsla(322, 100%, 66%, 1);
   }
 
-  
   &__icon {
     font-size: 0.75rem;
 
